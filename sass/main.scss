@@ -21,35 +21,35 @@ body {
     width: 1920px;
     height: 2285px;
     background-color: #0073BD;
-    background-image: linear-gradient(#0ff, #0098ce, #0087c6, #007bc1, #0074bd, #0073bd);
+    background-image: linear-gradient(rgb(0, 140, 255), #0098ce, #0087c6, #007bc1, #0074bd, #0073bd);
 }
 
 
 //header open
-#mainHeader{
-    max-width: 1799px;
-}
-
-
-
 #headerImage {
     width: 655px;
     height: 356px;
-    flex: right;
+    display: grid;
 }
 h2{
     color: $light_text_color;
-    font-family: Orbitron;
+    font-family: Open Sans;
     font-size: 45px;
-    // width: 1286px;
-    // height: 192px;
+  
 }
 
 
 p{
-    color: $color-white;
-    font-family: $light_text_color;
-    font-size: 49px;
+    color: $light_text_color;
+    font-family: Open Sans;
+    font-size: 20x;
+}
+h3{
+    color: $light_text_color;
+    font-family: Open Sans;
+    font-size: 30px;
+  
 }
 //header close
+ //main content open
 
