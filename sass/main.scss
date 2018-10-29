@@ -1,0 +1,79 @@
+// import variables
+@import '_vars';
+
+// import utilities rules
+@import '_utilities';
+
+// import modules components
+//@import 'modules/_header';
+//import header
+//@import '_header';
+
+
+
+// //html {
+//     :root {
+//         font-size: 10px;
+//         }
+body {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 1925px;
+    height: 8166px;
+    background-color: #0073BD;
+    background-image: linear-gradient(#0ff, #00c9e5, #00aed8, #0098ce, #0087c6, #007bc1, #0074bd, #0073bd);
+}
+
+
+//header open
+#mainHeader{
+    max-width: 1799px;
+}
+#verticalLine1{
+    width: 5px;
+    height: 328px;
+    background-color: $color-white;
+    position: absolute; 
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto
+}
+
+.headingPara{
+    float: left;
+}
+#headerImage {
+    width: 655px;
+    height: 356px;
+    flex: right;
+}
+h1{
+    color: $dark_text_color;
+    font-family: Orbitron;
+    font-size: 160px;
+    // width: 1286px;
+    // height: 192px;
+}
+
+
+p{
+    color: $color-white;
+    font-family: $light_text_color;
+    font-size: 49px;
+}
+#verticalLine2{
+    width: 5px;
+    height: 328px;
+    background-color: $color-white;
+}
+
+//header close
+
+//body
+//1 what is responsive webdesign ?
+#first_content_horizontalLine1{
+    width: 1799px;
+    height: 5px;
+    background-color: $color-white;
+}
