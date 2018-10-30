@@ -54,6 +54,29 @@ h3{
 }
 //header close
  //main content open
+//mid stection 1 open
+.keyFeatureImg{
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+    padding-block-end: 50%;
+    padding: 10px;
+    align-items: center;
+}
+#keyFeatureSvg1{
+    padding: 10px;
+
+}
+#keyFeatureSvg2{
+    padding: 10px;
+   
+}
+#keyFeatureSvg3{
+    padding: 10px;
+}
+
+
+
 //mid section 2 open
  #midSection{
     width: 1732px;
