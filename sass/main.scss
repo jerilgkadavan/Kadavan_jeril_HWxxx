@@ -10,26 +10,28 @@
 //@import '_header';
 
 
-
-// //html {
-//     :root {
-//         font-size: 10px;
-//         }
 body {
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     width: 1920px;
-    height: 2285px;
+    height: 2100px;
     background-color: #0073BD;
     background-image: linear-gradient(rgb(0, 140, 255), #0098ce, #0087c6, #007bc1, #0074bd, #0073bd);
 }
 
 
 //header open
-#headerImage {
-    width: 655px;
-    height: 356px;
-    display: grid;
+#mainHeader {
+    width: 860px;
+    height: 945px;
+    margin: 0 auto;
+    display: block;
+    
+}
+#headerImage{
+    width: 860px;
+    height: 870px;
+    padding: 10px;
 }
 h2{
     color: $light_text_color;
@@ -52,4 +54,51 @@ h3{
 }
 //header close
  //main content open
+//mid section 2 open
+ #midSection{
+    width: 1732px;
+    height: 220px;
+     display: flex;
+     justify-content:space-around;
+    padding: 5%
+ }
+.whyResponsiveImgs{
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+    padding-block-end: 50%;
+}
+#whyResponsiveSvg1{
+    padding: 10px;
+}
+#whyResponsiveSvg2{
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+ //last section
+ #fourthSection{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    padding: 10px;
+ }
+ .fourthHeading{
+     width: 600px;
+     margin: 0 auto;
+    display: block;
+    padding: 20px;
+ }
+ #graphImg{
+    margin: 0 auto;
+    display: block;
+    width: 80%;
+    
+ }
 
