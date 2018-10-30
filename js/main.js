@@ -1,6 +1,5 @@
 // https://github.com/dianadi09/pureJSLightbox
 
 (() => {
-    console.log("test");
-  })();
-  
+  console.log("mainjs");
+})();
