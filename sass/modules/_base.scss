@@ -1,0 +1,132 @@
+
+ /*MEDIA QUERIES*/
+
+
+ body {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 1920px;
+    height: 2500px;
+    background-color: #0073BD;
+    background-image: linear-gradient(rgb(0, 140, 255), #0098ce, #0087c6, #007bc1, #0074bd, #0073bd);
+}
+
+
+//header open
+#mainHeader {
+    width: 860px;
+    height: 1045px;
+    margin: 0 auto;
+    display: block;
+    
+}
+#headerImage{
+    width: 860px;
+    height: 870px;
+    padding: 10px;
+}
+h2{
+    color: $light_text_color;
+    font-family: Open Sans;
+    font-size: 45px;
+  
+}
+
+
+p{
+    color: $light_text_color;
+    font-family: Open Sans;
+    font-size: 20x;
+}
+h3{
+    color: $light_text_color;
+    font-family: Open Sans;
+    font-size: 30px;
+  
+}
+//header close
+ //main content open
+//mid stection 1 open
+.keyFeatureImg{
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+    padding-block-end: 50%;
+    padding: 10px;
+    align-items: center;
+}
+#keyFeatureSvg1{
+    padding: 10px;
+
+}
+#keyFeatureSvg2{
+    padding: 10px;
+   
+}
+#keyFeatureSvg3{
+    padding: 10px;
+}
+//mid stection 1 close
+
+
+//mid section 2 open
+ #midSection{
+    width: 1732px;
+    height: 220px;
+     display: flex;
+     justify-content:space-around;
+    padding: 5%
+ }
+.whyResponsiveImgs{
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+    padding-block-end: 50%;
+}
+#whyResponsiveSvg1{
+    padding: 10px;
+}
+#whyResponsiveSvg2{
+    padding: 10px;
+}
+
+ //last section
+ #fourthSection{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    padding: 10px;
+ }
+ .fourthHeading{
+     width: 600px;
+     margin: 0 auto;
+    display: block;
+    padding: 20px;
+ }
+ #graphImg{
+    margin: 0 auto;
+    display: block;
+    width: 80%;
+ 
+ }
+ #conclusion{
+    
+    margin: 0 auto;
+    display: block;
+ }
+
+/*MEDIA QUERIES*/
+
+@media only screen and (min-width: 480px)
+{
+
+}
+@media only screen and (min-width: 768px)
+{
+
+}
+
+// @media only screen and (min-width: 1140px)
+// {
+
+// }
