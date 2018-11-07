@@ -1,5 +1,5 @@
-# Kadavan_jeril_HWxxx
-Info graphic Assignment
+# Kadavan_jeril_Infographic
+Info graphic Assignment - About Responsive WebDesign
 
 
 ![image](images/infographic.png)
