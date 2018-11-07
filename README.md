@@ -22,7 +22,7 @@ Tools used during development phase:
 - Adobe Illustrator
 - Gulp.js
 - SASS
-- Javascript Fetch API
+- Javascript object oriented
 
 - https://greensock.com/ to animate data.
 - http://imakewebthings.com/waypoints/ to animate elements on scroll.
@@ -36,4 +36,6 @@ Tools used during development phase:
 ### Future Improvements
 - Animations improvements
 - Further refactoring SASS structure
+- Include more data
 - Updating data
+
